@@ -1,0 +1,411 @@
+/* SETTINGS */
+
+body {
+    background: black;
+    font-family: 'Khand';
+    color: white;
+    overflow-x: hidden;
+}
+
+* {
+    font-family: 'Khand';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/* SETTINGS END */
+
+
+/* HEADER */
+
+.header_navbar {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar_fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 2;
+    background: black;
+}
+
+.header_links {
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_link {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.header_links button {
+    background-color: #006DFF;
+    border: none;
+    width: 170px;
+    height: 40px;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.header_link:hover {
+    color: #006DFF;
+}
+
+.header_links button:hover {
+    background: transparent;
+    border: 1px solid #006DFF;
+}
+
+.navbar_progress_bar {
+    width: 100%;
+    height: 4px;
+    background-color: #006DFF;
+    transition: 0.6s;
+}
+
+.header_body {
+    background: url(../img/backround_main_photo.png);
+    width: 100vw;
+    height: 840px;
+}
+
+.header_content {
+    padding-top: 270px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_content_left {
+    width: 600px;
+}
+
+.header_content_title {
+    font-size: 50px;
+    line-height: 76px;
+}
+
+.header_content_subtitle {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.header_content_left button {
+    background-color: #006DFF;
+    color: white;
+    border: none;
+    width: 250px;
+    height: 65px;
+    font-size: 28px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 60px;
+}
+
+.header_content_left button:hover {
+    background: transparent;
+    border: 1px solid #006DFF;
+}
+
+.header_body_right {
+    width: 475px;
+    height: 225px;
+    background-color: rgba(0, 109, 255, 0.38);
+    padding: 25px;
+}
+
+.header_right_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_right_top div {
+    display: flex;
+    align-items: center;
+}
+
+.header_right_top div p {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.header_right_top button {
+    background-color: #006DFF;
+    border: none;
+    width: 170px;
+    height: 40px;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.header_right_top button:hover {
+    background: transparent;
+    border: 1px solid #006DFF;
+}
+
+.header_body_right a {
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.header_body_right>p {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.header_content_title span {
+    color: #006DFF;
+}
+
+.section_top {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+    font-size: 26px;
+}
+
+.section_top div {
+    font-size: 18px;
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+.section_top div hr {
+    background-color: #006DFF;
+    border: none;
+    height: 2px;
+    width: 210px;
+}
+
+
+/* HEADER END*/
+
+
+/* ABOUT */
+
+.about_body_cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.about_body_card {
+    height: 190px;
+    border-radius: 30px;
+    background-repeat: no-repeat !important;
+}
+
+.about_cards {
+    margin-top: 100px;
+    margin-left: 55px;
+    line-height: 35px;
+}
+
+.about_body_card_subtitle {
+    font-size: 20px;
+    letter-spacing: 0.01em;
+    font-weight: 300;
+    position: relative;
+    bottom: 5px;
+}
+
+.about_body_card_title {
+    font-size: 40px;
+    color: #006DFF;
+    font-weight: 600;
+}
+
+.small_card {
+    background-color: red;
+    border-radius: 30px;
+    width: 420px;
+}
+
+.big_card {
+    width: 760px;
+}
+
+
+/* ABOUT END*/
+
+
+/* HOW TO USE*/
+
+.how_to_use_top {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+    font-size: 26px;
+}
+
+.how_to_use_top div {
+    font-size: 18px;
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+.how_to_use_top div hr {
+    background-color: #006DFF;
+    border: none;
+    height: 2px;
+    width: 210px;
+}
+
+.how_to_use_body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 230px;
+    text-align: center;
+}
+
+.how_to_use_body hr {
+    height: 75px;
+    width: 2px;
+    background-color: #006DFF;
+    border: none;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.how_boby_title {
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.how_boby_subtitle {
+    font-weight: 400;
+    font-size: 22px;
+}
+
+
+/* HOW TO USE END */
+
+
+/* TRIAL */
+
+.trial_top {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+    font-size: 26px;
+}
+
+.trial_top div {
+    font-size: 18px;
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+.trial_top div hr {
+    background-color: #006DFF;
+    border: none;
+    height: 2px;
+    width: 210px;
+}
+
+.trial_body {
+    display: flex;
+    margin-bottom: 240px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trial_content {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    width: 600px;
+}
+
+.trial_content span {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.trial_content button {
+    background-color: #006DFF;
+    border: none;
+    width: 270px;
+    height: 65px;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.trial_content p {
+    margin-bottom: 20px;
+}
+
+.trial_content button:hover {
+    background: transparent;
+    border: 1px solid #006DFF;
+}
+
+
+/* TRIAL END */
+
+.footer_content {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: #006DFF;
+}
+
+.footer_content div {
+    display: grid;
+}
+
+.footer_content a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer_content a:hover {
+    color: black;
+}
+
+@media (max-width:1250px) {
+    .container {
+        max-width: 1040px;
+    }
+}
